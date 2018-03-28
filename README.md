@@ -1,4 +1,4 @@
-# Sentiment-Prediction-using-word-Embeddings
+# Sentiment-Prediction-using-word-Embeddings(In Progress)
 
 Word Embeddings proved to be effective features in sentiment classification. During Sentiment Prediction Word Embeddings are averaged across each sentence to derive feature for a single sentence.This repository consists of new approach for calculating word vectors for each sentence. Instead of averaging all the word vectors, we use **TF-IDF** to select top most words for each sentence and average those vectors for each sentence. The word vectors calculated for each sentence are trained using Machine Learning Algorithms and Neural Networks. The word vectors are calculated without any pretrained word Embeddings like Glove and Google Word2vec corpus.
 
