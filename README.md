@@ -62,4 +62,4 @@ Embeddings after training:
 ('well', 0.8155489563941956), ('really', 0.7915444374084473), ('bad', 0.7796602845191956), ('movie', 0.7706460952758789), ('pretty', 0.7576977014541626), ('acting', 0.7528560757637024), ('even', 0.751783549785614), ('like', 0.7510882616043091), ('isnt', 0.7507451176643372), ('much', 0.7412222027778625)
 
 ```
-Word Embeddings showed much similar words that are closely related.
+Word Embeddings showed much similar words that are closely related. These Word Embeddings are calculated on the Dataset and Pre trained word Embeddings are not used
