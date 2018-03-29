@@ -45,7 +45,7 @@ git clone https://github.com/avinashsai/Sentiment-Prediction-using-word-Embeddin
 To execute WordEmbeddings with TF-IDF using  Machine Learning Classifiers
 
 ```
-cd Machine Learning
+cd Machine Learning/Scripts
 python3 main.py
 
 ```
