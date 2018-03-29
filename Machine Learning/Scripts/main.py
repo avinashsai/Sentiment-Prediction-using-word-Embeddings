@@ -24,7 +24,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 
-with open('finalpolarity.txt','r',encoding='latin1') as f:
+with open('../Dataset/finalpolarity.txt','r',encoding='latin1') as f:
     data = f.readlines()
 
 
