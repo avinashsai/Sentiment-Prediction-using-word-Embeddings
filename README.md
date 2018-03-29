@@ -52,7 +52,7 @@ python3 main.py
 To execute WordEmbeddings with TF-IDF using ConvNets
 
 ```
-cd Neural Networks
+cd Neural Network
 python3 CNN.py
 
 ```
