@@ -10,5 +10,56 @@ The approach is tested on the **Polarity v2.0** dataset[http://www.cs.cornell.ed
 This new approach requires knowledge about word Embeddings. If you haven't learnt about word Embeddings I advise you to go through https://arxiv.org/abs/1301.3781 this paper. The word Embeddings are trained on entire dataset. TF-IDF scores are calculated and words with high TF-IDF scores are kept in vocabulary. For each sentence if words are present in vocabulary the word vectors are added and finally averaged for each sentence. The word vectors obtained are then trained using Machine Learning Algorithms and CNN.
 
 # Installation
+
 These are the packages needed to be installed 
 
+**1. Gensim**  
+```
+pip3 install gensim
+
+```
+**2. NLTK** 
+```
+sudo pip3 install -U nltk
+
+```
+**3.Tensorflow**
+
+Install Tensorflow using this https://www.tensorflow.org/install/
+
+**Keras**
+
+Install Keras using this https://keras.io/#installation
+
+# Running the Tests
+
+Machine Learning folder consists of code trained using Machine Learning Classifiers and Neural networks folder consists of code trained using  ConvNets.
+
+To run the files
+
+```
+git clone https://github.com/avinashsai/Sentiment-Prediction-using-word-Embeddings.git 
+
+```
+
+To execute WordEmbeddings with TF-IDF using  Machine Learning Classifiers
+
+```
+cd Machine Learning
+python3 main.py
+
+```
+To execute WordEmbeddings with TF-IDF using ConvNets
+
+```
+cd Neural Networks
+python3 CNN.py
+
+```
+Embeddings after training:
+
+```
+('well', 0.8155489563941956), ('really', 0.7915444374084473), ('bad', 0.7796602845191956), ('movie', 0.7706460952758789), ('pretty', 0.7576977014541626), ('acting', 0.7528560757637024), ('even', 0.751783549785614), ('like', 0.7510882616043091), ('isnt', 0.7507451176643372), ('much', 0.7412222027778625)
+
+```
+Word Embeddings showed much similar words that are closely related.
