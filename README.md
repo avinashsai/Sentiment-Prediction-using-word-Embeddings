@@ -73,7 +73,7 @@ To run files with pre trained Word Embeddings:
 Install Glove using this https://pypi.python.org/pypi/glove/1.0.2.
 
 ```
-cd pre trained word Embeddings
+cd Pretrained Word Embeddings
 python3 main.py
 
 ```
