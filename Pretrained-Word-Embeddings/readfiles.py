@@ -5,10 +5,10 @@ import numpy as np
 
 def read_files():
 
-	with open('../rt-polarity.pos','r',encoding='latin1') as f:
+	with open('Dataset/rt-polarity.pos','r',encoding='latin1') as f:
 		pos = f.readlines()
 
-	with open('../rt-polarity.neg','r',encoding='latin1') as f:
+	with open('Dataset/rt-polarity.neg','r',encoding='latin1') as f:
 		neg = f.readlines()
 
 	labels = np.zeros(10662)
