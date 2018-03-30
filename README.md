@@ -1,6 +1,6 @@
 # Sentiment-Prediction-using-word-Embeddings
 
-Word Embeddings proved to be effective features in sentiment classification. During Sentiment Prediction Word Embeddings are averaged across each sentence to derive feature for a single sentence.This repository consists of new approach for calculating word vectors for each sentence. Instead of averaging all the word vectors, we use **TF-IDF** to select top most words for each sentence and average those vectors for each sentence. The word vectors calculated for each sentence are trained using Machine Learning Algorithms and Neural Networks. The word vectors are calculated without any pretrained word Embeddings like Glove and Google Word2vec corpus.
+Word Embeddings proved to be effective features in sentiment classification. During Sentiment Prediction Word Embeddings are averaged across each sentence to derive feature for a single sentence.This repository consists of new approach for calculating word vectors for each sentence. Instead of averaging all the word vectors, we use **TF-IDF** to select top most words for each sentence and average those vectors for each sentence. The word vectors calculated for each sentence are trained using Machine Learning Algorithms and Neural Networks. The word vectors are calculated without any pretrained word Embeddings like Glove and Google Word2vec corpus. Pre-trained Word Embeddings folder contains comparison of both methods using Pre trained Word vectors.
 
 # Getting Started
 
@@ -8,6 +8,8 @@ The approach is tested on the **Polarity v2.0** dataset[http://www.cs.cornell.ed
 
 # Prerequisites 
 This new approach requires knowledge about word Embeddings. If you haven't learnt about word Embeddings I advise you to go through https://arxiv.org/abs/1301.3781 this paper. The word Embeddings are trained on entire dataset. TF-IDF scores are calculated and words with high TF-IDF scores are kept in vocabulary. For each sentence if words are present in vocabulary the word vectors are added and finally averaged for each sentence. The word vectors obtained are then trained using Machine Learning Algorithms and CNN.
+
+The approach is also tested on Pre Trained Word Emeddings Glove. The code for the approach is in Pre trained Word Embedding folder.
 
 # Installation
 
@@ -35,7 +37,7 @@ Install Keras using this https://keras.io/#installation
 
 Machine Learning folder consists of code trained using Machine Learning Classifiers and Neural networks folder consists of code trained using  ConvNets.
 
-To run the files
+To run the files without Pre-trained Word Embeddings
 
 ```
 git clone https://github.com/avinashsai/Sentiment-Prediction-using-word-Embeddings.git 
@@ -63,3 +65,16 @@ Embeddings after training:
 
 ```
 Word Embeddings showed much similar words that are closely related. These Word Embeddings are calculated on the Dataset and Pre trained word Embeddings are not used
+
+
+
+To run files with pre trained Word Embeddings:
+
+Install Glove using this https://pypi.python.org/pypi/glove/1.0.2.
+
+```
+cd pre trained word Embeddings
+python3 main.py
+
+```
+You will get results tested with all machine learning classifiers.
