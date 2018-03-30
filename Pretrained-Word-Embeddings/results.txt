@@ -1,0 +1,23 @@
+
+
+             Word2Vec+TF-IDF    Word2vec
+
+LR-  F1 Score -   71.936       71.352
+  -  accuracy -  71.870       72.105
+
+SVM-R - F1 Score -70.6434   70.741
+       accuracy - 70.6985    69.479
+ 
+SVM-L - F1 Score -71.582   71.160
+       accuracy - 71.636   71.917
+
+DT - F1 Score - 59.862   57.384
+      accuracy -59.071   57.524
+
+
+BNB -F1 Score - 67.444   65.237
+     accuracy - 66.0103  65.025
+
+
+KNN - F1 Score -64.534  61.975
+      accuracy -64.1350 63.009
